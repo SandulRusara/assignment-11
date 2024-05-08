@@ -1,0 +1,70 @@
+#navbar-nav{
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+#navbar-nav>a{
+    text-decoration: none;
+    color: white;
+    font-size: 31px;
+    font-family: 'Inria Sans', sans-serif;;
+    font-weight: 400;
+}
+#navbar-nav>a:last-child>button{
+    height: 46px;
+    width: 203px;
+    font-size: 22px;
+    color: white;
+    background-color: #FF5C8A;
+    border-radius: 5px;
+    border: 0;
+}
+
+.container-fluid{
+    background-color: #000000;
+    color: white;
+    height: 80px;
+    width: 100vw;
+}
+
+#navbar{
+    padding: 0;
+}
+h1{
+    position: absolute;
+    left: 100px;
+    top: 120px;
+}
+
+#orderDetailsTable{
+    width: 1200px;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+
+#order_details_table_head>tr>th{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+}
+
+#order_details_table_head>tr>th:first-child{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#order_details_table_head>tr>th:last-child{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table>tbody{
+    font-size: 22px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+}

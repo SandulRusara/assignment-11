@@ -1,0 +1,169 @@
+#order_headline>h1{
+    font-size: 45px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+#orderForm{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.form-control{
+    width: 80px;
+}
+.mb-3:first-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mb-3:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.mb-3:nth-child(3){
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.mb-3:nth-child(4){
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+.mb-3:nth-child(5){
+    position: absolute;
+    top: 160px;
+    left: 0;
+}
+
+.mb-3:nth-child(6){
+    position: absolute;
+    top: 160px;
+    left: 300px;
+}
+#total{
+    font-size: 25px;
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+.discount{
+    display: inline;
+    position: absolute;
+    top: 450px;
+    left: 100px;
+}
+#subTotal{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+}
+.cash{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
+.balance{
+    position: absolute;
+    top: 600px;
+    left: 400px;
+}
+#purchase{
+    position: absolute;
+    top: 680px;
+    left: 520px;
+}
+#container{
+    background-color: black;
+    width: 1px;
+    height: 600px;
+    position: absolute;
+    top: 120px;
+    right: 800px;
+}
+#selectItem>h1{
+    font-size: 45px;
+    position: absolute;
+    right: -30%;
+    top: 10%;
+}
+#form1{
+    position: absolute;
+    top: 150px;
+    left: 900px;
+}
+.form-control{
+    width: 70px;
+}
+#itemSelect>.mb-3:first-child{
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+#itemSelect>.mb-3:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 380px;
+}
+
+#itemSelect>.mb-3:nth-child(3){
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+#itemSelect>.mb-3:nth-child(4){
+    position: absolute;
+    top: 80px;
+    left: 380px;
+}
+#itemSelect>.mb-3:nth-child(5){
+    position: absolute;
+    top: 160px;
+    left: 80px;
+}
+#addItem{
+    position: absolute;
+    left: 380px;
+    top: 200px;
+}
+#table{
+    width: 500px;
+    position: absolute;
+    left: 1000px;
+    top: 70%;
+}
+
+#table_head>tr>th{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+}
+
+#table_head>tr>th:first-child{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#table_head>tr>th:last-child{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table>tbody{
+    font-size: 22px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+}
