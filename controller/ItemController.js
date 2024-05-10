@@ -1,6 +1,6 @@
 import {ItemModel} from "../model/ItemModel.js";
 import {customer_db, item_db} from "../db/db.js";
-// import {setCustomerIds, setItemIds} from "./OrderController.js";
+import {setCustomerIds, setItemIds} from "./OrderController.js";
 
 var row_index = null;
 $("#itemButton>button[type='button']").eq(0).on("click", () =>{
