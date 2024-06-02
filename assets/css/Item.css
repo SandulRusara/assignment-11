@@ -54,19 +54,22 @@
     color: black;
     text-align: center;
     padding: 0;
+    position: relative;
+    left: 350px;
+    top: 450px;
 
 }
 
 #itemButton>button:nth-child(1){
-    background-color: #C08261;
+    background-color: green;
 }
 
 #itemButton>button:nth-child(2){
-    background-color: #C8AE7D;
+    background-color: blue;
 }
 
 #itemButton>button:nth-child(3){
-    background-color: #BA704F;
+    background-color: red;
 }
 
 .form-label{
@@ -99,7 +102,7 @@ hr{
 }
 
 #item_table_head>tr>th{
-    background-color: black;
+    background-color: green;
     color: white;
     font-size: 25px;
     font-family: 'Inria Sans', sans-serif;
