@@ -79,7 +79,8 @@
     position: absolute;
     top: 680px;
     left: 520px;
-/*}*/
+
+}
 /*#container{*/
 /*    background-color: black;*/
 /*    width: 1px;*/
@@ -87,17 +88,17 @@
 /*    position: absolute;*/
 /*    top: 120px;*/
 /*    right: 800px;*/
-}
+/*}*/
 #selectItem>h1{
     font-size: 45px;
     position: absolute;
-    right: -40%;
+    right: -30%;
     top: 10%;
 }
 #form1{
     position: absolute;
     top: 150px;
-    left: 1100px;
+    left: 900px;
 }
 .form-control{
     width: 70px;
@@ -150,8 +151,6 @@
     font-weight: 400;
     text-align: center;
     padding: 0;
-    position: relative;
-    left: 170px;
 }
 
 #table_head>tr>th:first-child{

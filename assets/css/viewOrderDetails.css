@@ -15,7 +15,7 @@
     width: 203px;
     font-size: 22px;
     color: white;
-    background-color: #FF5C8A;
+    background-color: green;
     border-radius: 5px;
     border: 0;
 }
@@ -44,7 +44,7 @@ h1{
 }
 
 #order_details_table_head>tr>th{
-    background-color: black;
+    background-color: green;
     color: white;
     font-size: 25px;
     font-family: 'Inria Sans', sans-serif;

@@ -2,7 +2,6 @@
     position: absolute;
     left: 10%;
     top: 15%;
-    color:black;
 }
 
 #customerForm{
@@ -52,20 +51,19 @@
     font-family: 'Inria Sans', sans-serif;
     font-weight: 400;
     align-items: center;
-    color: white;
+    color: black;
     text-align: center;
     padding: 0;
-   position: relative;
+    position: relative;
     left: 350px;
     top: 450px;
-
 
 
 
 }
 
 #customerButton>button:nth-child(1){
-    background-color: green;
+    background-color:green;
 }
 
 #customerButton>button:nth-child(2){
@@ -73,7 +71,7 @@
 }
 
 #customerButton>button:nth-child(3){
-    background-color: red;
+    background-color: darkred;
 }
 
 .form-label{
@@ -83,7 +81,7 @@
 }
 
 hr{
-    border: 2px solid purple;
+    border: 2px solid black;
     width: 1150px;
     position: absolute;
     left: 10%;

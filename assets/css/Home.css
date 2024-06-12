@@ -27,6 +27,7 @@ body{
     position: fixed;
     overflow: hidden;
     right: 0;
+
 }
 #navbar-nav>a{
     text-decoration: none;
@@ -40,7 +41,7 @@ body{
     width: 203px;
     font-size: 22px;
     color: white;
-    background-color: #FF5C8A;
+    background-color: darkolivegreen;
     border-radius: 5px;
     border: 0;
 }
@@ -66,12 +67,13 @@ body{
     opacity: 80%;
     top: 150px;
     color: black;
+    left: 1500px;
 }
 #image>img{
     border-radius: 10px;
     position: absolute;
     left: 180px;
-    top: 265px;
+    top: 125px;
 }
 /*.chart-wrap {
     margin-left: 50px;
@@ -267,7 +269,7 @@ body{
     right: 5%;
 }
 #container-fluid>h2{
-    color: white;
+    color: green;
     font-size: 31px;
 }
 

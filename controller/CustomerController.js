@@ -2,6 +2,7 @@ import {CustomerModel} from "../model/CustomerModel.js";
 import {customer_db} from "../db/db.js";
 import {setCustomerIds} from "./OrderController.js";
 
+
 var row_index = null;
 const contact_regex = new RegExp("^(?:0|94|\\+94|0094)?(?:(11|21|23|24|25|26|27|31|32|33|34|35|36|37|38|41|45|47|51|52|54|55|57|63|65|66|67|81|91)(0|2|3|4|5|7|9)|7(0|1|2|4|5|6|7|8)\\d)\\d{6}$");
 
@@ -53,7 +54,7 @@ $("#customerButton>button[type='button']").eq(0).on("click", () =>{
                         customer_db.push(customer_obj);
 
                         loadStudentData();
-                        // setCustomerIds();
+                        setCustomerIds();
 
                         clear();
 
@@ -88,8 +89,10 @@ $("#customerButton>button[type='button']").eq(1).on("click", () =>{
     let customer_address = $("#customerAddress").val();
     let customer_contact = $("#contactNo").val();
 
-    if (validate(customer_id,'customer Id') && validate(customer_name,'customer name') &&
-        validate(customer_address,'customer address') &&validate(customer_contact,'customer contact')) {
+    if (validate(customer_id,'customer Id') &&
+        validate(customer_name,'customer name') &&
+        validate(customer_address,'customer address') &&
+        validate(customer_contact,'customer contact')) {
 
         if (customer_contact.match(contact_regex)) {
 
