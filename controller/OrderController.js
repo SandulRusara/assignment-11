@@ -222,7 +222,7 @@ order_btn.on('click', () => {
         }else{
             Swal.fire({
                 icon: 'error',
-                title: 'Please add items to cart 😔',
+                title: 'Please add items to cart sorry 😔',
             });
         }
     }
