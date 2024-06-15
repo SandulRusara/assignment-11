@@ -98,7 +98,7 @@ $("#itemButton>button[type='button']").eq(1).on("click", () =>{
         }else{
             Swal.fire({
                 icon: 'error',
-                title: 'Item did not exists 😓',
+                title: 'Item did not exists sorry 😓',
             });
         }
     }
