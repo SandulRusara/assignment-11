@@ -75,7 +75,7 @@ $("#customerButton>button[type='button']").eq(0).on("click", () =>{
         }else{
             Swal.fire({
                 icon: 'error',
-                title: 'Contact number is not valid! 😔',
+                title: 'Contact number is not valid sorry! 😔',
             });
         }
     }
