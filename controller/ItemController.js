@@ -38,7 +38,7 @@ $("#itemButton>button[type='button']").eq(0).on("click", () =>{
         }else{
             Swal.fire({
                 icon: 'error',
-                title: 'Item is already exists 😔',
+                title: 'Item is already exists sorry 😔',
             });
         }
     }
