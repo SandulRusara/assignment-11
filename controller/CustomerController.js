@@ -69,7 +69,7 @@ $("#customerButton>button[type='button']").eq(0).on("click", () =>{
             } else {
                 Swal.fire({
                     icon: 'error',
-                    title: 'Customer is already exists 😔',
+                    title: 'Customer is already exists sorry 😔',
                 });
             }
         }else{
