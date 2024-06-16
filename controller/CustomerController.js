@@ -194,7 +194,7 @@ function validate(value, field_name){
     if (!value){
         Swal.fire({
             icon: 'warning',
-            title: `Please enter the ${field_name}!`
+            title: `Pleas enter the ${field_name}!`
         });
         return false;
     }
